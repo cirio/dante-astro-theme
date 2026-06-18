@@ -6,7 +6,8 @@ import siteConfig from './src/data/site-config';
 
 // https://astro.build/config
 export default defineConfig({
-    site: siteConfig.website,
+    site: 'https://cirio.github.io/dante-astro-theme',
+    base: '/dante-astro-theme',
     vite: {
         plugins: [tailwindcss()]
     },
