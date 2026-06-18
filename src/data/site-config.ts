@@ -6,10 +6,10 @@ const siteConfig: SiteConfig = {
     website: 'https://example.com',
     avatar: {
         src: avatar,
-        alt: 'Ethan Donovan'
+        alt: 'Marco Ponti'
     },
-    title: 'Dante',
-    subtitle: 'Minimal Astro.js theme',
+    title: 'Marco Ponti',
+    subtitle: 'Psicoteraputa',
     description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
     image: {
         src: '/dante-preview.jpg',
@@ -20,54 +20,54 @@ const siteConfig: SiteConfig = {
             text: 'Home',
             href: '/'
         },
-        {
-            text: 'Projects',
-            href: '/projects'
-        },
-        {
-            text: 'Blog',
-            href: '/blog'
-        },
-        {
-            text: 'Tags',
-            href: '/tags'
-        }
+        // {
+        //     text: 'Projects',
+        //     href: '/projects'
+        // },
+        // {
+        //     text: 'Blog',
+        //     href: '/blog'
+        // },
+        // {
+        //     text: 'Tags',
+        //     href: '/tags'
+        // }
     ],
     footerNavLinks: [
-        {
-            text: 'About',
-            href: '/about'
-        },
-        {
-            text: 'Contact',
-            href: '/contact'
-        },
-        {
-            text: 'Terms',
-            href: '/terms'
-        },
-        {
-            text: 'Download theme',
-            href: 'https://github.com/JustGoodUI/dante-astro-theme'
-        }
+        // {
+        //     text: 'About',
+        //     href: '/about'
+        // },
+        // {
+        //     text: 'Contact',
+        //     href: '/contact'
+        // },
+        // {
+        //     text: 'Terms',
+        //     href: '/terms'
+        // },
+        // {
+        //     text: 'Download theme',
+        //     href: 'https://github.com/JustGoodUI/dante-astro-theme'
+        // }
     ],
     socialLinks: [
-        {
-            text: 'Dribbble',
-            href: 'https://dribbble.com/'
-        },
+        // {
+        //     text: 'Dribbble',
+        //     href: 'https://dribbble.com/'
+        // },
         {
             text: 'Instagram',
             href: 'https://instagram.com/'
         },
-        {
-            text: 'X/Twitter',
-            href: 'https://twitter.com/'
-        }
+        // {
+        //     text: 'X/Twitter',
+        //     href: 'https://twitter.com/'
+        // }
     ],
     hero: {
-        title: 'Hi There & Welcome to My Corner of the Web!',
-        text: "I'm **Ethan Donovan**, a web developer at Amazing Studio, dedicated to the realms of collaboration and artificial intelligence.\nMy approach involves embracing intuition, conducting just enough research, and leveraging aesthetics as a catalyst for exceptional products.\nI have a profound appreciation for top-notch software, visual design, and the principles of product-led growth.\n\nFeel free to explore some of my coding endeavors on [GitHub](https://github.com/JustGoodUI/dante-astro-theme) or follow me on [Twitter/X](https://twitter.com/justgoodui).",
+        title: 'Benvenuti!',
+        text: "Ho conseguito la laurea in psicologia all'Università di Parma per poi specializzarmi in psicoterapia psicodinamica analitica junghiana presso la scuola AION di Bologna.\nSono iscritto all'albo degli psicologi e degli psicoterapeuti dell'Emilia-Romagna. Svolgo l'attività clinica nel mio studio in centro a Piacenza, attività rivolta all'età adulta e adolescenza.\n\nDurante tutto il corso della mia vita ho sempre portato avanti il dialogo e il confronto con il mio più grande maestro, l'inconscio. E questo è appunto ciò che propongo nel percorso di psicoterapia: imparare a dialogare con sé stessi e con le proprie immagini, attraverso anche l'analisi dei sogni. Un percorso che non si concentra soltanto sul sintomo ma segue le naturali trasformazioni interne in costante contatto, nel bene come nel male, con la propria essenziale unicità.\n\n*\"Se possediamo l'immagine di una cosa, possediamo la metà di quella cosa. […] Chi possiede il mondo, ma non invece la sua immagine, possiede soltanto la metà del mondo, poiché l'anima sua è povera e indigente. La ricchezza dell'anima è fatta d'immagini.\"* (C.G. Jung)",
         image: {
             src: hero,
             alt: 'A person sitting at a desk in front of a computer'
