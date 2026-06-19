@@ -74,21 +74,21 @@ const siteConfig: SiteConfig = {
         },
         actions: [
             {
-                text: 'Contatattami',
+                text: 'Contattami',
                 href: '/contact'
             }
         ]
     },
     subscribe: {
         enabled: true,
-        title: 'Subscribe to Dante Newsletter',
-        text: 'One update per week. All the latest posts directly in your inbox.',
+        title: 'Iscriviti alla Newsletter di Dante',
+        text: 'Un aggiornamento a settimana. Tutti gli ultimi post direttamente nella tua casella di posta.',
         form: {
             action: '#'
         }
     },
-    postsPerPage: 0,
-    projectsPerPage: 0
+    postsPerPage: 8,
+    projectsPerPage: 8
 };
 
 export default siteConfig;
