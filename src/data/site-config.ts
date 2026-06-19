@@ -74,7 +74,7 @@ const siteConfig: SiteConfig = {
         },
         actions: [
             {
-                text: 'Get in Touch',
+                text: 'Contatattami',
                 href: '/contact'
             }
         ]
@@ -87,8 +87,8 @@ const siteConfig: SiteConfig = {
             action: '#'
         }
     },
-    postsPerPage: 8,
-    projectsPerPage: 8
+    postsPerPage: 0,
+    projectsPerPage: 0
 };
 
 export default siteConfig;
